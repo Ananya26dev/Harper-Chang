@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.navbar-brand{
+    color: #ff5875;
+}
+.navbar-brand:hover{
+    color: #ff0531;
+}
+.logo{
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 0;
+}
+.social-icon{
+    font-size: 18px;
+    color: goldenrod;
+}
+nav .container-fluid{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.hero{
+    width: 100%;
+    max-width: 1920px;
+    height: 500px;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+}
+.hero-title{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hero-content{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.btn-white{
+    background-color: #fff;
+    color: #000;
+}
+.book-btn:hover{
+    background-color: burlywood;
+}
+section{
+    padding: 60px 0;
+}
+.learn-btn{
+    width: 25%;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#review,footer{
+    background-color: #f1cfd5;
+}
+.testimonial-item{
+    font-family: "Lobster", serif;
+}
+.call-content{
+    font-size: 14px;
+    margin-top: 5px;
+}
+footer .logo{
+    font-size: 20px;
+}
+.social-items{
+    padding-top: 10px;
+}
+@media (max-width:1024px) {
+    .social-icons{
+        margin-left: 0px!important;
+    }
+    .hero-title{
+        font-size: 40px;
+    }
+    .hero-content{
+        width: 90%;
+    }
+    .learn-btn{
+        width: 50%;
+    }
+}
+@media (max-width:600px){
+    .social-items{
+        padding-top: 5px;
+    }
+}
